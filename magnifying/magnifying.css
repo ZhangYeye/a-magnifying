@@ -1,0 +1,50 @@
+#medimImgContainer{
+    position: relative;
+}
+ #mask{
+   /* display: block;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 175px;
+    height: 175px;
+    background: #ffa;
+    opacity: 0.7;
+    display: none;
+}
+#maskTop{
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: move;
+    opacity: 0;
+}
+#largeImgContainer{
+    position:absolute;
+    width: 350px;
+    height: 350px;
+    top: -1px;
+    left: 302px;
+    background: #fff;
+    z-index: 500;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    display: none;
+}
+#medimImgContainer  {
+    width: auto;
+    height: auto;
+}
+#mediumImg{
+    width: 300px;
+    height: 300px;
+}
+#largeImg{
+    width: 600px;
+    height:600px;
+    position: absolute;
+    display: none;
+}
